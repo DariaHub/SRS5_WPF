@@ -1,0 +1,31 @@
+﻿<Window x:Class="Zadanie1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Button Name="a" Width="600" Height="600">
+            <Button Name="b" Width="520" Height="520">
+                <Button Name="c" Width="440" Height="440">
+                    <Button Name="d" Width="360" Height="360">
+                        <Button Name="ee" Width="280" Height="280">
+                            <Button Name="f" Width="200" Height="200">
+                                <Button Name="g" Width="140" Height="140">
+                                    <Button Name="h" Width="90" Height="90">
+                                        <Button Name="i" Width="50" Height="50">
+                                            <Button Name="j" Width="30" Height="30" Click="j_Click">
+                                            </Button>
+                                        </Button>
+                                    </Button>
+                                </Button>
+                            </Button>
+                        </Button>
+                    </Button>
+                </Button>
+            </Button>
+        </Button>
+    </Grid>
+</Window>
